@@ -1,0 +1,27 @@
+header {
+  padding: 20px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  background-color: #D8D8D8; 
+  opacity: 0.5;
+}
+
+a {
+  color: #00B7FF;
+}
+
+.die{
+	color: #DF0101;
+	font-weight: bold;
+}
+
+.path{
+	width: 33%;
+	height: 33%;
+	border-radius: 80%;
+	opacity: 0.6;
+	border-color: #000;
+}
+
+.path:hover{
+	opacity: 1.0;
+}
