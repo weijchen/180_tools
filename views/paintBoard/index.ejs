@@ -3,7 +3,8 @@
   <head>
     <title>Paint Board</title>
     <link rel='stylesheet' href='/stylesheets/paintBoard.css' />
-    <script type="text/javascript" href='/javascript/main.js'></script>
+    <script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
   </head>
   <body>
     <h1>Pick a color you like!</h1>
@@ -11,10 +12,10 @@
   	<main>
       <div id="container">
         <div id='color_plate'>
-          <div class="color" id="red">red</div>
-          <div class="color" id="yellow">yellow</div>
-          <div class="color" id="blue">blue</div>
-          <div class="color" id="white">white</div>
+          <div class="color" id="red"></div><br>
+          <div class="color" id="yellow"></div><br>
+          <div class="color" id="blue"></div><br>
+          <div class="color" id="white"></div>
         </div>
         <div id="painting">
           <div id='row_1'></div>
@@ -23,7 +24,7 @@
             <div class="row" id="row_1_box_3"></div>
             <div class="row" id="row_1_box_4"></div>
           <div id='row_2'></div>
-            <div class="row" id="row_2_box_1">3</div>
+            <div class="row" id="row_2_box_1"></div>
             <div class="row" id="row_2_box_2"></div>
             <div class="row" id="row_2_box_3"></div>
             <div class="row" id="row_2_box_4"></div>
@@ -42,7 +43,8 @@
   	</main>
 
   	<footer>
-  		
+	    <p class="copyright" style="text-align: right; font-size: 12px; color: #000;">&copy; <a href="http://weijchen.github.io/Homepage/">JimmyC</a></p>
   	</footer>
   </body>
+    <script type="text/javascript" src="/javascripts/paintBoard.js"></script>
 </html>
